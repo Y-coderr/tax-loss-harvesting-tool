@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F2F2F2;
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-6xl mx-auto px-4;
+  }
+}
